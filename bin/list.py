@@ -11,7 +11,7 @@ def transform(letters, vowels):
         group = []
         for vowel in vowels:
             if letter == vowel:
-                group.append(vowel)
+                group.insert(0, vowel)
             group.append(f'{letter}{vowel}')
         group.append('')
         groups.append(group)

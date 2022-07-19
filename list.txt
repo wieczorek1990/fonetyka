@@ -76,8 +76,8 @@ dżo
 dżu
 dży
 
-ea
 e
+ea
 ee
 ei
 eo
@@ -112,9 +112,9 @@ ho
 hu
 hy
 
+i
 ia
 ie
-i
 ii
 io
 iu
@@ -169,10 +169,10 @@ ny
 ńu
 ńy
 
+o
 oa
 oe
 oi
-o
 oo
 ou
 oy
@@ -233,11 +233,11 @@ to
 tu
 ty
 
+u
 ua
 ue
 ui
 uo
-u
 uu
 uy
 
@@ -248,12 +248,12 @@ wo
 wu
 wy
 
+y
 ya
 ye
 yi
 yo
 yu
-y
 yy
 
 za
