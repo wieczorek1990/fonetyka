@@ -1,7 +1,17 @@
 #!/usr/bin/env python
+import glob
+
+
+def get_links():
+    files = glob.glob('ogg/*.ogg')
+    names = [file.lstrip('ogg/').rstrip('.ogg') for file in files]
+    return [
+        f'* [{name}](</{file}>)' for name, file in zip(names, files)
+    ]
+
 
 def main():
-    links = []
+    links = get_links()
     with open('readme-template.md') as file:
         content = file.read()
     with open('readme.md', 'w') as file:
