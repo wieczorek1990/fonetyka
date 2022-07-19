@@ -2,11 +2,12 @@
 import glob
 
 
-def get_links():
-    files = glob.glob('ogg/*.ogg')
-    names = [file.lstrip('ogg/').rstrip('.ogg') for file in files]
+def get_links(extension='ogg'):
+    with open('letters.txt') as file:
+        letters = file.read().splitlines()
     return [
-        f'* [{name}](</{file}>)' for name, file in zip(names, files)
+        f'* [{letter}](</{extension}/{letter}.{extension}>)'
+        for letter in letters
     ]
 
 
