@@ -191,6 +191,13 @@ po
 pu
 py
 
+qa
+qe
+qi
+qo
+qu
+qy
+
 ra
 re
 ri
@@ -241,12 +248,26 @@ uo
 uu
 uy
 
+va
+ve
+vi
+vo
+vu
+vy
+
 wa
 we
 wi
 wo
 wu
 wy
+
+xa
+xe
+xi
+xo
+xu
+xy
 
 y
 ya

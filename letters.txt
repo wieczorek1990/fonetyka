@@ -25,6 +25,7 @@ n
 o
 ó
 p
+q
 r
 rz
 s
@@ -32,7 +33,9 @@ s
 sz
 t
 u
+v
 w
+x
 y
 z
 ź
