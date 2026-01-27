@@ -1,8 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import glob
 
+DEFAULT_EXTENSION='wav'
 
-def get_links(extension='ogg'):
+
+def get_links(extension=DEFAULT_EXTENSION):
     with open('letters.txt') as file:
         letters = file.read().splitlines()
     return [
